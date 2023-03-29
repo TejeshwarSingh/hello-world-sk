@@ -1,0 +1,8 @@
+npm create svelte@latest hello-world-sk
+
+Next steps:
+  1: cd hello-world-sk
+  2: npm install (or pnpm install, etc)
+  3: git init && git add -A && git commit -m "Initial commit" (optional)
+  4: npm run dev -- --open
+

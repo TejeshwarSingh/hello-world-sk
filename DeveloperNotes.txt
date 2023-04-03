@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=UOMLvxfrTCA&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua
+
 npm create svelte@latest hello-world-sk
 
 Next steps:
@@ -5,4 +7,59 @@ Next steps:
   2: npm install (or pnpm install, etc)
   3: git init && git add -A && git commit -m "Initial commit" (optional)
   4: npm run dev -- --open
+
+
+  -- may not be needed --------
+  npm i eslint-plugin-svelte
+
+  -------------------
+
+  --- routing -- file based --
+ -- Conventions for rounting -- 
+  1. all routes must be palced inside the routes folder within the scr folder
+  2. every file that corresponds to a route must be named +page.svelte
+  3. every folder corresponds to a path segment in the browser URL.
+
+    use case 1
+    home page 
+http://127.0.0.1:5173/
+    use case 2
+    about and profile
+http://127.0.0.1:5173/about
+http://127.0.0.1:5173/profile
+http://127.0.0.1:5173/blog
+
+    use case 3
+    nested routes
+        blog 
+http://127.0.0.1:5173/blog/first
+http://127.0.0.1:5173/blog/second       
+
+------------ Dynamic routes ------
+use case 4
+
+Products listing 
+/Product
+
+Product detail by id 
+/Product/id
+
+-- nested dynamic routes -- 
+
+use case 5 
+/Product/id/review/id
+
+http://127.0.0.1:5173/products/1/reviews
+http://127.0.0.1:5173/products/1/reviews/1
+
+
+
+
+
+
+
+
+
+
+
 
